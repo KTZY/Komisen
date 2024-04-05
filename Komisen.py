@@ -1,3 +1,4 @@
+# Input
 jumlah = 0
 jualan = 0
 komisen = 0
@@ -15,8 +16,11 @@ while ulang == "Y":
     else:
         kadar_komisen = 0.02
     komisen = jualan * kadar_komisen
+    # Output
     print("Komisen anda ialah RM", round(komisen,2))
     jumlah = jumlah + komisen
+    # Input
     ulang = input("Masukkan Y untuk teruskan pengiraan atau N untuk hentikan pengiraan: ")
+# Output
 print("\n\tJumlah komisen ialah RM", round(jumlah,2))
 print("Sekian, tamat.")
