@@ -1,4 +1,5 @@
-# Input
+# Atur cara mengira komisen
+# Pengisytiharan pemboleh ubah
 jumlah = 0
 jualan = 0
 komisen = 0
